@@ -1,6 +1,6 @@
 import React from 'react';
-import './Navigation.css'
 import logo from '../../../images/Logo.png'
+import './Navigation.css'
 
 const Navigation = () => {
     return (
@@ -24,7 +24,7 @@ const Navigation = () => {
                     {/* logo */}
 
                     <a className='' href='/'>
-                        <div className="w-24 md:w-32 lg:w-full">
+                        <div className="w-28 lg:w-full">
                             <img src={logo} alt='logo' />
                         </div>
                     </a>
@@ -44,7 +44,7 @@ const Navigation = () => {
 
                     <a href='/' className="btn btn-sm normal-case btn-ghost">Sign in</a>
 
-                    <a href='/' className="btn btn-sm ml-5 px-8 normal-case btn-secondary btn-outline rounded-full">Sign Up</a>
+                    <a href='/' className="btn btn-sm md:ml-5 md:px-8 normal-case btn-secondary btn-outline rounded-full">Sign Up</a>
 
                 </div>
             </div>

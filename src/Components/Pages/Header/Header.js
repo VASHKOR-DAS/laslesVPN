@@ -6,20 +6,21 @@ const Header = () => {
         <div>
 
 
-            <div className="grid lg:grid-cols-2 md:grid-cols-2 gap-16 justify-items-center content-evenly">
+            <div className="grid justify-items-center lg:grid-cols-2 md:grid-cols-2 gap-20">
 
 
-                <div>
-                    <h4 className="font-bold">Want anything to be
-                        <br />
-                        easy with <span className='font-extrabold'>LaserVPN.</span>
-                    </h4>
+                <div className='prose lg:prose-xl lg:text-left md:text-left text-center'>
+
+                    <h2 className="font-bold">Want anything to be easy with <span className='font-extrabold text-secondary'>LaserVPN.</span>
+                    </h2>
+
                     <p className="">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
 
-                    <button className="px-16 normal-case font-bold btn btn-secondary shadow-lg shadow-pink-500/100">Get Started</button>
+                    <button className="lg:px-16 px-7 lg:prose-lg normal-case font-bold btn btn-secondary shadow-lg shadow-pink-500/100">Get Started</button>
                 </div>
+                
 
-                <div>
+                <div className=''>
                     <img src={Illustration} alt='logo' />
                 </div>
             </div>
