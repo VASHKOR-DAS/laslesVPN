@@ -6,7 +6,7 @@ const Header = () => {
         <div>
 
 
-            <div className="grid justify-items-center lg:grid-cols-2 md:grid-cols-2 gap-20">
+            <div className="grid justify-items-center lg:grid-cols-2 md:grid-cols-2 gap-10 md:gap-10 lg:gap-20">
 
 
                 <div className='prose lg:prose-xl lg:text-left md:text-left text-center'>

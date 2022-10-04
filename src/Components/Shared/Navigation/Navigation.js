@@ -24,7 +24,7 @@ const Navigation = () => {
                     {/* logo */}
 
                     <a className='' href='/'>
-                        <div className="w-28 lg:w-full">
+                        <div className="w-22 sm:w-26 md:w-28 lg:w-full">
                             <img src={logo} alt='logo' />
                         </div>
                     </a>
