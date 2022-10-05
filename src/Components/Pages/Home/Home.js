@@ -4,10 +4,10 @@ import Stts from '../Stts/Stts';
 
 const Home = () => {
     return (
-        <div className='mx-6'>
+        <div className='mx-2'>
             <br /><br />
             <Header></Header>
-            <br /><br />
+            <br /><br /><br />
             <Stts></Stts>
             <br /><br /><br /><br /><br />
         </div>

@@ -1,50 +1,53 @@
 import React from 'react';
+import './Stts.css'
 
 const Stts = () => {
     return (
-        <div className='text-center'>
+        <>
 
             <div className="container stats shadow-2xl">
 
-                <div className="stat">
-                    
-                    <div className="stat-figure text-primary">
+                <div className="stat flex justify-center my-8">
+                    <div className="stat-figure text-[#F53838] border border-[#FFECEC] rounded-full bg-[#FFECEC] p-2 md:p-3">
 
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-8 h-8 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg>
+                        <svg className="w-4 h-4 md:w-5 md:h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd" /></svg>
+
                     </div>
 
-                    <div className="stat-title">Total Likes</div>
-                    <div className="stat-value text-primary">25.6K</div>
-                    <div className="stat-desc">21% more than last month</div>
-                    
+                    <div>
+                        <div className="font-extrabold md:prose-lg lg:prose-xl">90+</div>
+                        <div className="stat-desc font-semibold md:prose-sm lg:prose-base">Users</div>
+                    </div>
                 </div>
 
-                <div className="stat">
-                    <div className="stat-figure text-secondary">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-8 h-8 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                <div className="stat flex justify-center my-8">
+                    <div className="stat-figure text-[#F53838] border border-[#FFECEC] rounded-full bg-[#FFECEC] p-2 md:p-3">
+                        <svg className="w-4 h-4 md:w-5 md:h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" /></svg>
                     </div>
-                    <div className="stat-title">Page Views</div>
-                    <div className="stat-value text-secondary">2.6M</div>
-                    <div className="stat-desc">21% more than last month</div>
+
+                    <div>
+                        <div className="font-extrabold md:prose-lg lg:prose-xl">30+</div>
+                        <div className="stat-desc font-semibold md:prose-sm lg:prose-base">Locations</div>
+                    </div>
                 </div>
 
-                <div className="stat">
-                    <div className="stat-figure text-secondary">
-                        <div className="avatar online">
-                            <div className="w-16 rounded-full">
-                                <img src="https://placeimg.com/128/128/people" alt=''/>
-                            </div>
-                        </div>
+                <div className="stat flex justify-center my-8">
+                    <div className="stat-figure text-[#F53838] border border-[#FFECEC] rounded-full bg-[#FFECEC] p-2 md:p-3">
+
+                        <svg className="w-4 h-4 md:w-5 md:h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M2 5a2 2 0 012-2h12a2 2 0 012 2v2a2 2 0 01-2 2H4a2 2 0 01-2-2V5zm14 1a1 1 0 11-2 0 1 1 0 012 0zM2 13a2 2 0 012-2h12a2 2 0 012 2v2a2 2 0 01-2 2H4a2 2 0 01-2-2v-2zm14 1a1 1 0 11-2 0 1 1 0 012 0z" clipRule="evenodd" /></svg>
+
                     </div>
-                    <div className="stat-value">86%</div>
-                    <div className="stat-title">Tasks done</div>
-                    <div className="stat-desc text-secondary">31 tasks remaining</div>
+
+                    <div className=''>
+                        <div className="font-extrabold md:prose-lg lg:prose-xl">50+</div>
+                        <div className="stat-desc font-semibold md:prose-sm lg:prose-base">Servers</div>
+                    </div>
                 </div>
 
             </div>
 
 
-        </div>
+        </>
     );
 };
 

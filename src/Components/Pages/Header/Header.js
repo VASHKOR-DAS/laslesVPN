@@ -1,5 +1,5 @@
 import React from 'react';
-import Illustration from '../../../images/Illustration 2.png'
+import Illustration from '../../../images/Illustration 1.png'
 
 const Header = () => {
     return (
@@ -16,11 +16,11 @@ const Header = () => {
 
                     <p className="">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
 
-                    <button className="lg:px-16 px-7 lg:prose-lg normal-case font-bold btn btn-secondary shadow-lg shadow-pink-500/100">Get Started</button>
+                    <button className="lg:px-16 px-7 lg:prose-lg normal-case font-bold btn btn-secondary bg-[#F53838] shadow-lg shadow-[rgba(245,56,56,0.5)]">Get Started</button>
                 </div>
-                
 
-                <div className=''>
+
+                <div className='w-96 md:w-full'>
                     <img src={Illustration} alt='logo' />
                 </div>
             </div>
