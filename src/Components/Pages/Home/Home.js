@@ -1,5 +1,4 @@
 import React from 'react';
-import Card from '../Card/Card';
 import Header from '../Header/Header';
 import Pricing from '../Pricing/Pricing';
 
@@ -17,8 +16,6 @@ const Home = () => {
             <Provide></Provide>
             <br /><br /><br /><br /><br />
             <Pricing></Pricing>
-            <br /><br />
-            <Card></Card>
             <br /><br /><br /><br /><br />
         </div>
     );
