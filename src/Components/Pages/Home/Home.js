@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../Header/Header';
+import Provide from '../Provide/Provide';
 import Stts from '../Stts/Stts';
 
 const Home = () => {
@@ -9,6 +10,8 @@ const Home = () => {
             <Header></Header>
             <br /><br /><br />
             <Stts></Stts>
+            <br /><br /><br /><br />
+            <Provide></Provide>
             <br /><br /><br /><br /><br />
         </div>
     );

@@ -5,7 +5,7 @@ const Stts = () => {
     return (
         <>
 
-            <div className="container stats shadow-xl shadow-gray-100">
+            <div className="container stats shadow-2xl shadow-gray-200">
 
                 <div className="stat flex justify-center my-8">
                     <div className="stat-figure text-[#F53838] border border-[#FFECEC] rounded-full bg-[#FFECEC] p-2 md:p-3">
