@@ -1,5 +1,4 @@
 import React from 'react';
-import './Stts.css'
 
 const Stts = () => {
     return (
