@@ -11,7 +11,7 @@ const Header = () => {
 
                 <div className='prose prose-sm lg:prose-lg lg:text-left md:text-left text-center'>
 
-                    <h2 className="font-bold">Want anything to be easy with <span className='font-extrabold text-secondary'>LaserVPN.</span>
+                    <h2 className="font-bold">Want anything to be easy with <span className='font-extrabold text-secondary'>LaslesVPN.</span>
                     </h2>
 
                     <p className="">Provide a network for all your needs with ease and fun using LaslesVPN
