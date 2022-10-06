@@ -18,17 +18,11 @@ const Header = () => {
                         discover interesting features from us.</p>
 
                     <button className="
-                    
                     px-7 md:px-10 lg:px-16
-
                     normal-case font-bold 
-                    
                     btn btn-sm sm:btn-sm md:btn-md
-                    
                     btn-secondary bg-[#F53838] 
-                    
                     shadow-xl 
-                    
                     shadow-[rgba(245,56,56,0.3)]">Get Started</button>
                 </div>
 
