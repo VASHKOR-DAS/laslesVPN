@@ -225,7 +225,9 @@ const Card = () => {
                             Works on All Devices
                         </li>
 
-                        <h3 className='font-bold'>Free</h3>
+                        <h3 className='font-bold'>
+                        <span className=''></span>12
+                        </h3>
 
                     </article>
 
@@ -237,7 +239,8 @@ const Card = () => {
                     no-underline
                     font-bold
                     border-[3px]
-                    text-[#F53835] 
+                    text-white 
+                    bg-[#F53835]
                     hover:bg-orange-600
                     hover:border-orange-600
                     focus:ring
