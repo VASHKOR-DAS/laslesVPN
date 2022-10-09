@@ -183,7 +183,7 @@ const Card = () => {
 
 
                 {/* -----------Card 3 start----------- */}
-                <div className='border-2 border-current-500 rounded-lg px-16 
+                <div className='border-[3px] border-[#F53835] rounded-lg px-16 
                 flex justify-between flex-col pb-10
                 '>
 
