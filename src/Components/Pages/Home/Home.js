@@ -3,6 +3,7 @@ import Card from '../Card/Card';
 import Global from '../Global/Global';
 import Header from '../Header/Header';
 import Provide from '../Provide/Provide';
+import Review from '../Review/Review';
 import Stts from '../Stts/Stts';
 
 const Home = () => {
@@ -18,6 +19,8 @@ const Home = () => {
             <Card></Card>
             <br /><br /><br /><br /><br />
             <Global></Global>
+            <br />
+            <Review></Review>
             <br /><br /><br /><br /><br />
         </div>
     );

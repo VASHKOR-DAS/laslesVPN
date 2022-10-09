@@ -15,9 +15,9 @@ const Global = () => {
             </article>
 
             <br /><br /><br /><br />
-            <img src={globalImg} alt="" srcSet="" />
+            <img className='block mx-auto' src={globalImg} alt="" srcSet="" />
             <br />
-            <img src={sponsored} alt="" srcSet="" />
+            <img className='block mx-auto' src={sponsored} alt="" srcSet="" />
 
         </div>
     );
