@@ -14,7 +14,7 @@ const Global = () => {
                 </p>
             </article>
 
-            <br /><br /><br /><br />
+            <br /><br />
             <img className='block mx-auto' src={globalImg} alt="" srcSet="" />
             <br />
             <img className='block mx-auto' src={sponsored} alt="" srcSet="" />

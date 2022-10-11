@@ -6,7 +6,7 @@ import StandardPlan from '../../../images/Standard.png'
 
 const Card = () => {
     return (
-        <>
+        <div className='pt-4 pb-4'>
 
             <article className='text-center prose-sm md:prose-base lg:prose-lg max-w-none'>
                 <h3 className="font-bold">Choose Your Plan</h3>
@@ -24,7 +24,7 @@ const Card = () => {
 
                 {/* -----------Card 1 start----------- */}
                 <div className='border-2 border-current-500 rounded-lg px-16 
-                flex justify-between flex-col pb-10 
+                flex justify-between flex-col pb-10
                 '>
 
                     <article className='prose-sm md:prose-base'>
@@ -265,6 +265,7 @@ const Card = () => {
                             no-underline
                             font-bold
                             border-[3px]
+                            border-current
                             text-white
                             bg-[#F53835]
                             hover:bg-orange-600
@@ -281,7 +282,7 @@ const Card = () => {
 
 
             </div>
-        </>
+        </div>
     );
 };
 

@@ -4,14 +4,13 @@ import Home from './Components/Pages/Home/Home';
 
 function App() {
   return (
-    <div className="mx-2 md:mx-6 lg:mx-16">
+    <div className="">
       <div className='container mx-auto'>
         <Navigation></Navigation>
         <Home></Home>
       </div>
+      
     </div>
-
-
   );
 }
 
