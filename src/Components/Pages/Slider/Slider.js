@@ -1,7 +1,5 @@
 import React from 'react';
 
-
-
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -15,14 +13,6 @@ import "./Slider.css";
 
 // import required modules
 import { Pagination, Navigation } from "swiper";
-
-
-
-
-
-
-
-
 
 
 const Slider = () => {
@@ -59,7 +49,7 @@ const Slider = () => {
                     </article>
                 </section>
 
-                <section className='p-5 w-96 border-2 border-solid border-red-600 rounded-xl'>
+                <section className='p-5 w-96 border-2 border-solid rounded-xl'>
 
                     <div>
                         <div className='flex justify-between'>
@@ -85,7 +75,7 @@ const Slider = () => {
                     </article>
                 </section>
 
-                <section className='p-5 w-96 border-2 border-solid border-red-600 rounded-xl'>
+                <section className='p-5 w-96 border-2 border-solid rounded-xl'>
 
                     <div>
                         <div className='flex justify-between'>
@@ -114,33 +104,51 @@ const Slider = () => {
 
             <Swiper
 
-                slidesPerView={1}
-                spaceBetween={50}
-                
-
-
-                breakpoints={{
-                    
-                    640: {
-                        slidesPerView: 1,
-                        spaceBetween: 0,
-                    },
-                    768: {
-                        slidesPerView: 1,
-                        spaceBetween: 20,
-                    },
-                    1024: {
-                        slidesPerView: 1,
-                        spaceBetween: 0,
-                    },
-                }}
-
+                slidesPerView={"1"}
+                spaceBetween={10}
+                centeredSlides={true}
+                navigation={true}
                 pagination={{
                     clickable: true
                 }}
-                navigation={true}
                 modules={[Pagination, Navigation]}
                 className="mySwiper"
+
+
+                // breakpoints={{
+                //     640: {
+                //         slidesPerView: 1.8,
+                //         spaceBetween: 20,
+                //     },
+                //     768: {
+                //         slidesPerView: 3.8,
+                //         spaceBetween: 40,
+                //     },
+                //     1024: {
+                //         slidesPerView: 4.8,
+                //         spaceBetween: 50,
+                //     },
+                // }}
+
+
+                breakpoints={{
+                    "@0.00": {
+                      slidesPerView: 1,
+                      spaceBetween: 10,
+                    },
+                    "@0.75": {
+                      slidesPerView: 1.8,
+                      spaceBetween: 20,
+                    },
+                    "@1.00": {
+                      slidesPerView: 2.8,
+                      spaceBetween: 40,
+                    },
+                    "@1.50": {
+                      slidesPerView: 3.8,
+                      spaceBetween: 50,
+                    },
+                  }}
             >
 
                 <SwiperSlide>
@@ -175,7 +183,7 @@ const Slider = () => {
 
 
                 <SwiperSlide>
-                    <section className='p-5 h-48 w-[350px] border-2 border-solid border-red-600 rounded-xl'>
+                    <section className='p-5 h-48 w-[350px] border-2 border-solid rounded-xl'>
 
                         <div>
                             <div className='flex justify-between'>
@@ -204,7 +212,7 @@ const Slider = () => {
 
 
                 <SwiperSlide>
-                    <section className='p-5 h-48 w-[350px] border-2 border-solid border-red-600 rounded-xl'>
+                    <section className='p-5 h-48 w-[350px] border-2 border-solid rounded-xl'>
 
                         <div>
                             <div className='flex justify-between'>
@@ -232,7 +240,7 @@ const Slider = () => {
 
 
                 <SwiperSlide>
-                    <section className='p-5 h-48 w-[350px] border-2 border-solid border-red-600 rounded-xl'>
+                    <section className='p-5 h-48 w-[350px] border-2 border-solid rounded-xl'>
 
                         <div>
                             <div className='flex justify-between'>
@@ -259,7 +267,7 @@ const Slider = () => {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <section className='p-5 h-48 w-[350px] border-2 border-solid border-red-600 rounded-xl'>
+                    <section className='p-5 h-48 w-[350px] border-2 border-solid rounded-xl'>
 
                         <div>
                             <div className='flex justify-between'>
