@@ -27,7 +27,9 @@ const Home = () => {
             <Slider></Slider>
             <br /><br />
             <SpecialFeatures></SpecialFeatures>
-            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+            <br /><br />
+            
+            <br /><br />
         </div>
     );
 };
