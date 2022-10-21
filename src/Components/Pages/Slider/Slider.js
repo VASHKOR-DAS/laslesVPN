@@ -108,11 +108,20 @@ const Slider = () => {
                 spaceBetween={30}
 
                 centeredSlides={true}
+                updateOnWindowResize={true}
 
-                navigation={true}
+                // navigation: {
+                //     nextEl: ".swiper-button-next",
+                //     prevEl: ".swiper-button-prev",
+                //   }
+
+                navigation
+
                 pagination={{
                     clickable: true
                 }}
+
+
                 modules={[Pagination, Navigation]}
                 className="mySwiper"
 
