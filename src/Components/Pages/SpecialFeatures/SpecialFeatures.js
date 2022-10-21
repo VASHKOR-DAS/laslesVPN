@@ -4,16 +4,16 @@ import './SpecialFeatures.css'
 const SpecialFeatures = () => {
     return (
         <div className='flex flex-col md:flex-row flex-wrap
-        items-center 
-        justify-center
-        sm:justify-between
-        border
-        px-10
-        mx-auto
-        lg:mx-24
-        pb-14
-        md:pb-0'>
-            
+            items-center 
+            justify-center
+            sm:justify-between
+            border
+            px-10
+            mx-auto
+            lg:mx-24
+            pb-14
+            md:pb-0'>
+
             <article className='text-center md:text-left prose-base md:prose-base lg:prose-lg max-w-none'>
                 <h2 className="font-bold">
                     Subscribe Now for
