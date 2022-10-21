@@ -3,12 +3,13 @@ import './SpecialFeatures.css'
 
 const SpecialFeatures = () => {
     return (
-        <div className='flex flex-col md:flex-row flex-wrap
+        <div className='flex flex-col md:flex-row
             items-center 
             justify-center
-            sm:justify-between
+            md:justify-between
             border
-            px-10
+            px-0
+            md:px-10
             mx-auto
             lg:mx-24
             pb-14
