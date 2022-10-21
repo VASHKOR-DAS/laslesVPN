@@ -5,11 +5,12 @@ import Header from '../Header/Header';
 import Provide from '../Provide/Provide';
 import Review from '../Review/Review';
 import Slider from '../Slider/Slider';
+import SpecialFeatures from '../SpecialFeatures/SpecialFeatures';
 import Stts from '../Stts/Stts';
 
 const Home = () => {
     return (
-        <div className=''>
+        <div className='mx-2'>
             <br /><br />
             <Header></Header>
             <br /><br /><br />
@@ -24,9 +25,9 @@ const Home = () => {
             <Review></Review>
             <br />
             <Slider></Slider>
-            <br /><br /><br /><br /><br />
-            <br /><br /><br /><br /><br />
-            <br /><br /><br /><br /><br />
+            <br /><br />
+            <SpecialFeatures></SpecialFeatures>
+            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
         </div>
     );
 };
