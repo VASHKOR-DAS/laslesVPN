@@ -13,7 +13,6 @@ function App() {
       </div>
       <SpecialFeatures></SpecialFeatures>
       <Footer></Footer>
-      <br />
     </div>
   );
 }

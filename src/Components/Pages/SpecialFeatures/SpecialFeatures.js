@@ -4,19 +4,24 @@ import './SpecialFeatures.css'
 const SpecialFeatures = () => {
     return (
 
-        <div className='background'>
+        <div className='background py-10'>
 
             <div className='flex flex-col md:flex-row
+
             bg-white
             items-center 
             justify-center
             md:justify-between
-            border
+
+            custom-shadow
+            
             px-0
             md:px-10
+
             mx-6
             md:mx-12
             lg:mx-28
+            
             pb-14
             md:pb-0'>
 

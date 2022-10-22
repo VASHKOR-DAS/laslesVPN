@@ -24,7 +24,6 @@ const Home = () => {
             <Review></Review>
             <br />
             <Slider></Slider>
-            <br /><br />
             
         </div>
     );

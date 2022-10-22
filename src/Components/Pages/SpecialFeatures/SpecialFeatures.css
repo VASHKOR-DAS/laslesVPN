@@ -2,3 +2,9 @@
     height: 100%;
     background: linear-gradient(180deg, white 50%, #f0f0f0 50%);
 }
+
+.custom-shadow {
+    border: 1px solid none;
+    box-shadow: 0px 5px 70px 15px #f0f0f0;
+    border-radius: 10px;
+}
