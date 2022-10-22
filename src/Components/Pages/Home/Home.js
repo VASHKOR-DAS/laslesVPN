@@ -28,8 +28,6 @@ const Home = () => {
             <br /><br />
             <SpecialFeatures></SpecialFeatures>
             <br /><br />
-            
-            <br /><br />
         </div>
     );
 };
