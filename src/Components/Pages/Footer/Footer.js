@@ -4,12 +4,12 @@ import logo from '../../../images/Logo.png'
 const Footer = () => {
     return (
 
-        <div className='bg-base-200'>
+        <div className='bg-[#f0f0f0]'>
             <footer className="footer p-10 text-base-content
             container mx-auto">
 
                 <div>
-                    <img className='' src={logo} alt="" srcset="" />
+                    <img className='' src={logo} alt="" srcSet="" />
                     <p className='pt-3 prose-sm lg:prose-base text-gray-500 font-serif'><strong>LaslesVPN</strong> is a private virtual network that has <br />
                         unique features and has high security.</p>
 

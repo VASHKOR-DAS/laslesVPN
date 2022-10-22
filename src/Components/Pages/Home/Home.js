@@ -5,7 +5,6 @@ import Header from '../Header/Header';
 import Provide from '../Provide/Provide';
 import Review from '../Review/Review';
 import Slider from '../Slider/Slider';
-import SpecialFeatures from '../SpecialFeatures/SpecialFeatures';
 import Stts from '../Stts/Stts';
 
 const Home = () => {
@@ -26,8 +25,7 @@ const Home = () => {
             <br />
             <Slider></Slider>
             <br /><br />
-            <SpecialFeatures></SpecialFeatures>
-            <br /><br />
+            
         </div>
     );
 };
